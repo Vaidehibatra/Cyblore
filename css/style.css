@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
     --color1: #007EBD;
     --color2: #5B1CA0;
@@ -66,6 +70,34 @@
 /* Carousel  ends*/
 
 /* body */
+.short-heading {
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heading,
+.industries-card h5 {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+}
+
+.para-left,
+.para-right,
+.card-text {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+
+.card-title,
+.team-details span {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 .left,
 .right {
@@ -154,9 +186,9 @@
     z-index: 1;
 }
 
-.footer-main > * {
+.footer-main>* {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
 footer .grid {
@@ -181,7 +213,9 @@ footer .grid {
 .add-content p a {
     font-size: 15px;
     color: var(--color3);
-    font-weight: 500;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Footer ends*/
